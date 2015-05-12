@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9C62D821B02873F0067134C /* libRNAudioPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9C62D761B02873F0067134C /* libRNAudioPlayer.a */; };
+		D9C62D9D1B02881B0067134C /* AudioPlayerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C62D9C1B02881B0067134C /* AudioPlayerManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9C62D831B02873F0067134C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9C62D6E1B02873F0067134C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9C62D751B02873F0067134C;
+			remoteInfo = RNAudioPlayer;
+		};
+		D9C62DA21B0288750067134C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9C62D9E1B0288750067134C /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 83CBBA2E1A601D0E00E9B192;
+			remoteInfo = React;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D9C62D741B02873F0067134C /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D9C62D761B02873F0067134C /* libRNAudioPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNAudioPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C62D811B02873F0067134C /* RNAudioPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNAudioPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9C62D871B02873F0067134C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9C62D9B1B02881B0067134C /* AudioPlayerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AudioPlayerManager.h; path = ../../../../fieldday/FDScanner/AudioPlayerManager.h; sourceTree = "<group>"; };
+		D9C62D9C1B02881B0067134C /* AudioPlayerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AudioPlayerManager.m; path = ../../../../fieldday/FDScanner/AudioPlayerManager.m; sourceTree = "<group>"; };
+		D9C62D9E1B0288750067134C /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9C62D731B02873F0067134C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C62D7E1B02873F0067134C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C62D821B02873F0067134C /* libRNAudioPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9C62D6D1B02873F0067134C = {
+			isa = PBXGroup;
+			children = (
+				D9C62D9E1B0288750067134C /* React.xcodeproj */,
+				D9C62D781B02873F0067134C /* RNAudioPlayer */,
+				D9C62D851B02873F0067134C /* RNAudioPlayerTests */,
+				D9C62D771B02873F0067134C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9C62D771B02873F0067134C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9C62D761B02873F0067134C /* libRNAudioPlayer.a */,
+				D9C62D811B02873F0067134C /* RNAudioPlayerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9C62D781B02873F0067134C /* RNAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				D9C62D9B1B02881B0067134C /* AudioPlayerManager.h */,
+				D9C62D9C1B02881B0067134C /* AudioPlayerManager.m */,
+			);
+			path = RNAudioPlayer;
+			sourceTree = "<group>";
+		};
+		D9C62D851B02873F0067134C /* RNAudioPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9C62D861B02873F0067134C /* Supporting Files */,
+			);
+			path = RNAudioPlayerTests;
+			sourceTree = "<group>";
+		};
+		D9C62D861B02873F0067134C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9C62D871B02873F0067134C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9C62D9F1B0288750067134C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9C62DA31B0288750067134C /* libReact.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9C62D751B02873F0067134C /* RNAudioPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9C62D8A1B02873F0067134C /* Build configuration list for PBXNativeTarget "RNAudioPlayer" */;
+			buildPhases = (
+				D9C62D721B02873F0067134C /* Sources */,
+				D9C62D731B02873F0067134C /* Frameworks */,
+				D9C62D741B02873F0067134C /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNAudioPlayer;
+			productName = RNAudioPlayer;
+			productReference = D9C62D761B02873F0067134C /* libRNAudioPlayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D9C62D801B02873F0067134C /* RNAudioPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9C62D8D1B02873F0067134C /* Build configuration list for PBXNativeTarget "RNAudioPlayerTests" */;
+			buildPhases = (
+				D9C62D7D1B02873F0067134C /* Sources */,
+				D9C62D7E1B02873F0067134C /* Frameworks */,
+				D9C62D7F1B02873F0067134C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9C62D841B02873F0067134C /* PBXTargetDependency */,
+			);
+			name = RNAudioPlayerTests;
+			productName = RNAudioPlayerTests;
+			productReference = D9C62D811B02873F0067134C /* RNAudioPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9C62D6E1B02873F0067134C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Ari Lerner";
+				TargetAttributes = {
+					D9C62D751B02873F0067134C = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					D9C62D801B02873F0067134C = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D9C62D711B02873F0067134C /* Build configuration list for PBXProject "RNAudioPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9C62D6D1B02873F0067134C;
+			productRefGroup = D9C62D771B02873F0067134C /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D9C62D9F1B0288750067134C /* Products */;
+					ProjectRef = D9C62D9E1B0288750067134C /* React.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				D9C62D751B02873F0067134C /* RNAudioPlayer */,
+				D9C62D801B02873F0067134C /* RNAudioPlayerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D9C62DA31B0288750067134C /* libReact.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libReact.a;
+			remoteRef = D9C62DA21B0288750067134C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9C62D7F1B02873F0067134C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9C62D721B02873F0067134C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9C62D9D1B02881B0067134C /* AudioPlayerManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C62D7D1B02873F0067134C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9C62D841B02873F0067134C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9C62D751B02873F0067134C /* RNAudioPlayer */;
+			targetProxy = D9C62D831B02873F0067134C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D9C62D881B02873F0067134C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D9C62D891B02873F0067134C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9C62D8B1B02873F0067134C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D9C62D8C1B02873F0067134C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/node_modules/react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D9C62D8E1B02873F0067134C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNAudioPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D9C62D8F1B02873F0067134C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNAudioPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9C62D711B02873F0067134C /* Build configuration list for PBXProject "RNAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C62D881B02873F0067134C /* Debug */,
+				D9C62D891B02873F0067134C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9C62D8A1B02873F0067134C /* Build configuration list for PBXNativeTarget "RNAudioPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C62D8B1B02873F0067134C /* Debug */,
+				D9C62D8C1B02873F0067134C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9C62D8D1B02873F0067134C /* Build configuration list for PBXNativeTarget "RNAudioPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9C62D8E1B02873F0067134C /* Debug */,
+				D9C62D8F1B02873F0067134C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9C62D6E1B02873F0067134C /* Project object */;
+}
