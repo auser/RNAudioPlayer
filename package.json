@@ -10,7 +10,8 @@
   "license": "ISC",
   "keywords": [
     "reactnative",
-    "audio"
+    "audio",
+    "react-component"
   ],
   "devDependencies": {
     "react-native": "^0.4.2"
